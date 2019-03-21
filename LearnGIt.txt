@@ -1,0 +1,10 @@
+1)Regiter the email
+Fist:   git config --global user.name "YouName"
+second: git config --global user.email "501855796@qq.com"
+
+2)check the ssh keys
+fist: cd ~/.ssh
+if show No such file or directory ,you need to create a ssh keys.
+second : ssh-keygen -t rsa _C "501855796@qq.com"
+
+3)git pull commit .
