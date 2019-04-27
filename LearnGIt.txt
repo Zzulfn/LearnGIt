@@ -8,3 +8,7 @@ if show No such file or directory ,you need to create a ssh keys.
 second : ssh-keygen -t rsa _C "501855796@qq.com"
 
 3)git pull commit .
+git add .//add all file to the remote reproirty .
+git commit -a -m "test"//
+git push //
+git pull origin master //update the local reproirty 
