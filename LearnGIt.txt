@@ -5,7 +5,10 @@ second: git config --global user.email "501855796@qq.com"
 2)check the ssh keys
 fist: cd ~/.ssh
 if show No such file or directory ,you need to create a ssh keys.
+
 second : ssh-keygen -t rsa -C "501855796@qq.com"
+
+third :登录github。打开setting->SSH keys，点击右上角 New SSH key，把生成好的公钥id_rsa.pub放进 key输入框中，再为当前的key起一个title来区分每个key。
 
 3)git pull commit .
 git add .//add all file to the remote reproirty .
